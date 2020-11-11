@@ -63,7 +63,7 @@ class ItemsController extends AdminController
             if ($category) {
                 return [$category->id => $category->name];
             }
-        })->ajax('/admin/api/categories');
+        })->ajax('/admin777/api/categories');
         $form->text('name', '词语')->rules('required');
         $form->textarea('description', '描述');
         $form->number('view_count', __('查看数'))->default(0);
