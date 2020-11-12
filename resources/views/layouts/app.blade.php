@@ -20,5 +20,15 @@
 </div>
 <!-- JS 脚本 -->
 <script src="{{ mix('js/app.js') }}"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3b59f62470937ca3692421e2a6b2008e";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
 </body>
 </html>
